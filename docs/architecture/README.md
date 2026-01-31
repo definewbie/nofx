@@ -50,6 +50,19 @@ NOFX is a full-stack AI trading platform for cryptocurrency and US stock markets
 
 ---
 
+## Architecture Deep Dives
+
+Comprehensive documentation for understanding NOFX internals:
+
+| Document | Description |
+|----------|-------------|
+| [**System Overview**](01-system-overview.md) | High-level architecture, module relationships, directory structure |
+| [**Trading Core Flow**](02-trading-core.md) | How trading decisions are made and executed step-by-step |
+| [**Tech Stack & Deployment**](03-tech-stack.md) | Technologies, configuration, database schema, deployment options |
+| [**Security Architecture**](04-security.md) | Encryption, authentication, authorization, data protection |
+
+---
+
 ## Module Documentation
 
 ### Core Modules
@@ -142,11 +155,19 @@ nofx/
 
 ## Quick Links
 
+**Architecture:**
+- [System Overview](01-system-overview.md) - High-level architecture
+- [Trading Core Flow](02-trading-core.md) - Decision and execution flow
+- [Tech Stack & Deployment](03-tech-stack.md) - Technologies and deployment
+- [Security Architecture](04-security.md) - Encryption and authentication
+
+**Modules:**
 - [Strategy Module](STRATEGY_MODULE.md) - How strategies work
 - [Backtest Module](BACKTEST_MODULE.md) - How backtesting works
 - [Debate Module](DEBATE_MODULE.md) - How AI debates work
-- [Getting Started](../getting-started/README.md) - Setup guide
-- [FAQ](../faq/README.md) - Frequently asked questions
+
+**Getting Started:**
+- [Setup Guide](../getting-started/README.md) - Installation and setup
 
 ---
 
